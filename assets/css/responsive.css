@@ -1,0 +1,86 @@
+@media only screen and (max-width:1366px) {
+    .hero_top .grey_box .second_box {
+        height: 435px;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .hero_top .grey_box {
+        display: block;
+    }
+    .hero_top .grey_box .first_box {
+        padding-top: 8%;
+        padding-bottom: 8%;
+    }
+    .hero_top .grey_box .first_box,
+    .hero_top .grey_box .second_box {
+        width: 100%;
+        height: initial !important;
+    }
+    .hero_top .grey_box .second_box .center_box {
+        text-align: center;
+    }
+    .hero_top .grey_box .second_box .center_box img {
+        position: initial;
+        height: 436px;
+    }
+    .earn_box .vocher_steps {
+        margin-bottom: 60px;
+    }
+    .fb_login .fb_status {
+        text-align: center;
+    }
+    .video_sec h5,
+    .right_box h6 {
+        text-align: center;
+    }
+    .earn_box .vocher_steps .grey_box {
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .earn_box .vocher_steps .arrow_box {
+        display: none;
+    }
+    .earn_box .vocher_steps .arrow_mobi {
+        display: block;
+        height: 139px;
+    }
+    .earn_box .vocher_steps .arrow_mobi img {
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .hero_top .grey_box .second_box {
+        height: initial;
+    }
+}
+
+@media only screen and (max-width:575px) {
+    .earn_box .earn_title,
+    .fb_login .fb_status h5,
+    .video_sec h5,
+    footer .op_foot .term h5 {
+        font-size: 28px;
+    }
+}
+
+@media only screen and (max-width:524px) {
+    .hero_top .grey_box .second_box .center_box img {
+        height: 316px;
+    }
+}
+
+@media only screen and (max-width:475px) {
+    .hero_top .grey_box .first_box .center_box h5 {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width:524px) {
+    .hero_top .grey_box .second_box .center_box img {
+        height: 216px;
+    }
+}

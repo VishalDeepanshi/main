@@ -1,0 +1,327 @@
+body {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+ol,
+ul,
+li {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.visible_btn {
+    padding: 14px 30px;
+    background-color: #174AFF;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    transition: all .3s ease-in;
+    font-weight: 600;
+}
+
+.visible_btn:hover {
+    background-color: #FFD3D3;
+    color: #000;
+}
+
+
+/*--Hero Section---*/
+
+.hero_top {
+    overflow-x: hidden;
+}
+
+.hero_top .grey_box {
+    display: flex;
+}
+
+.hero_top .grey_box .first_box {
+    padding: 20px;
+    background-color: #174AFF;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../images/hero_bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero_top .grey_box .first_box .center_box {
+    width: 100%;
+    max-width: 450px;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 6px;
+}
+
+.hero_top .grey_box .first_box .center_box h5 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.hero_top .grey_box .first_box .center_box p {
+    line-height: 30px;
+}
+
+.hero_top .grey_box .second_box {
+    background-color: #FFD3D3;
+    width: 50%;
+    background-image: url(../images/second_hero.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    position: relative;
+    height: 600px;
+}
+
+.hero_top .grey_box .second_box .center_box img {
+    position: absolute;
+    left: -12%;
+    height: 100%;
+}
+
+
+/*--earn section--*/
+
+.earn_box {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    overflow-x: hidden;
+}
+
+.earn_box .earn_title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.earn_box .vocher_steps .grey_box {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.earn_box .vocher_steps .grey_box span {
+    width: 100%;
+    max-width: 80px;
+    height: 80px;
+    background: #FFD3D3;
+    border-radius: 3px;
+    padding: 10px;
+    display: flex;
+    font-weight: 600;
+    font-size: 26px;
+    align-items: center;
+    justify-content: center;
+}
+
+.earn_box .vocher_steps {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.earn_box .vocher_steps .arrow_box {
+    text-align: right;
+    width: 100%;
+}
+
+.earn_box .vocher_steps .arrow_mobi {
+    width: 100%;
+    text-align: center;
+    display: none;
+}
+
+.earn_box .vocher_steps .grey_box .voch_details {
+    padding-left: 15px;
+}
+
+.earn_box .vocher_steps .grey_box .voch_details p {
+    margin-bottom: 0px;
+}
+
+.earn_box .vocher_steps .grey_box .opo {
+    background-color: #174AFF;
+    color: #fff;
+}
+
+.right_box {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.right_box h6 {
+    margin-bottom: 20px;
+}
+
+.right_box h6 a {
+    text-decoration: underline;
+    color: #000;
+}
+
+.blue_box {
+    padding: 30px;
+    text-align: center;
+    background-color: #174AFF;
+    border-radius: 8px;
+}
+
+.blue_box h5 {
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+
+/*--fb Login --*/
+
+.fb_login {
+    overflow-x: hidden;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #FFD3D3;
+    background-image: url(../images/fb_bg.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-attachment: fixed;
+}
+
+.fb_login .fb_status {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.fb_login .fb_status h5 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 43px;
+}
+
+.fb_login .fb_status p {
+    font-size: 20px;
+}
+
+.fb_login .fb_status .white_box {
+    width: 100%;
+    max-width: 700px;
+    background: #fff;
+    border-radius: 8px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fb_login .fb_status .white_box .open_box .form-check label {
+    font-weight: 600;
+    margin-left: 9px;
+    font-size: 20px;
+    margin-top: -4px;
+}
+
+.fb_login .fb_status .white_box .open_box a img {
+    margin-right: 15px;
+}
+
+.fb_login .fb_status .white_box a {
+    width: 100%;
+    display: block;
+}
+
+
+/*--Video--*/
+
+.video_sec {
+    overflow-x: hidden;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: url(../images/video_bg.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.video_sec h5 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.video_sec .video_box {
+    height: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 3px solid #174AFF;
+    margin-bottom: 20px;
+}
+
+.video_sec .video_box iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+
+/*--footer--*/
+
+footer {
+    overflow-x: hidden;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #FFD3D3;
+    position: relative;
+    overflow: hidden;
+}
+
+footer::after {
+    background-image: url(../images/foot_bg.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    content: '';
+    bottom: 0;
+    right: 8%;
+    width: 200px;
+    height: 100px;
+}
+
+footer .op_foot .term h5 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+footer .op_foot .term ul {
+    padding-left: 0px;
+}
+
+footer .op_foot .term ul li {
+    margin-bottom: 12px;
+}
+
+footer .op_foot .term ul li a {
+    color: #000;
+    text-decoration: underline;
+    padding-left: 8px;
+    transition: all .3s ease;
+}
+
+.right_box h6 a:hover,
+footer .op_foot .term ul li a:hover {
+    color: #174AFF;
+}
